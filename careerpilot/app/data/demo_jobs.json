@@ -1,0 +1,302 @@
+[
+ {
+  "title": "PMO Analyst",
+  "company": "Liffey Digital",
+  "location": "Dublin",
+  "job_type": "Part-time",
+  "source": "LinkedIn",
+  "url": "https://example.com/linkedin/job/1000",
+  "posted_at": "2026-10-01",
+  "description": "Liffey Digital is hiring a PMO Analyst (Part-time) in Dublin. Key skills: PMO governance, RAID log management, stakeholder reporting, portfolio dashboards, Jira, MS Project. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Senior PMO Analyst",
+  "company": "Dodder Software",
+  "location": "Cork",
+  "job_type": "Full-time",
+  "source": "Indeed",
+  "url": "https://example.com/indeed/job/1001",
+  "posted_at": "2026-10-02",
+  "description": "Dodder Software is hiring a Senior PMO Analyst (Full-time) in Cork. Key skills: PMO governance, benefits tracking, RAID management, executive reporting, change control. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "PMO Manager",
+  "company": "Nore Pharma",
+  "location": "Limerick",
+  "job_type": "Part-time",
+  "source": "IrishJobs",
+  "url": "https://example.com/irishjobs/job/1002",
+  "posted_at": "2026-10-03",
+  "description": "Nore Pharma is hiring a PMO Manager (Part-time) in Limerick. Key skills: Build and run a PMO: governance framework, resource planning, risk reporting, methodology. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Project Manager",
+  "company": "Lee Valley Logistics",
+  "location": "Dublin",
+  "job_type": "Full-time",
+  "source": "Jobs.ie",
+  "url": "https://example.com/jobsie/job/1003",
+  "posted_at": "2026-10-04",
+  "description": "Lee Valley Logistics is hiring a Project Manager (Full-time) in Dublin. Key skills: End-to-end delivery, stakeholder management, Agile and Waterfall, budgets, risk management. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Senior Delivery Lead",
+  "company": "Foyle Insurance",
+  "location": "Cork",
+  "job_type": "Part-time",
+  "source": "LinkedIn",
+  "url": "https://example.com/linkedin/job/1004",
+  "posted_at": "2026-10-05",
+  "description": "Foyle Insurance is hiring a Senior Delivery Lead (Part-time) in Cork. Key skills: Lead cross-functional delivery, stakeholder management, Agile delivery, roadmaps, vendor management. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Programme Manager",
+  "company": "Corrib Financial",
+  "location": "Remote, Ireland",
+  "job_type": "Full-time",
+  "source": "Indeed",
+  "url": "https://example.com/indeed/job/1005",
+  "posted_at": "2026-10-06",
+  "description": "Corrib Financial is hiring a Programme Manager (Full-time) in Remote, Ireland. Key skills: Programme governance, multi-project delivery, stakeholder management, benefits realisation. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Scrum Master",
+  "company": "Slaney Retail Group",
+  "location": "Dublin",
+  "job_type": "Part-time",
+  "source": "IrishJobs",
+  "url": "https://example.com/irishjobs/job/1006",
+  "posted_at": "2026-10-07",
+  "description": "Slaney Retail Group is hiring a Scrum Master (Part-time) in Dublin. Key skills: Facilitate Scrum ceremonies, sprint planning, backlog refinement, coach teams, remove impediments. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Agile Coach",
+  "company": "Moy Fintech",
+  "location": "Cork",
+  "job_type": "Full-time",
+  "source": "Jobs.ie",
+  "url": "https://example.com/jobsie/job/1007",
+  "posted_at": "2026-10-08",
+  "description": "Moy Fintech is hiring a Agile Coach (Full-time) in Cork. Key skills: Agile transformation, Scrum, Kanban, coaching teams and leadership, sprint planning. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Technical Project Manager",
+  "company": "Boyne Analytics",
+  "location": "Limerick",
+  "job_type": "Part-time",
+  "source": "LinkedIn",
+  "url": "https://example.com/linkedin/job/1008",
+  "posted_at": "2026-10-01",
+  "description": "Boyne Analytics is hiring a Technical Project Manager (Part-time) in Limerick. Key skills: Software delivery, Agile, Jira, stakeholder management, release planning. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Business Analyst",
+  "company": "Barrow Telecom",
+  "location": "Dublin",
+  "job_type": "Full-time",
+  "source": "Indeed",
+  "url": "https://example.com/indeed/job/1009",
+  "posted_at": "2026-10-02",
+  "description": "Barrow Telecom is hiring a Business Analyst (Full-time) in Dublin. Key skills: Requirements gathering, process mapping, user stories, stakeholder workshops. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Software Engineer",
+  "company": "Shannon Health Systems",
+  "location": "Cork",
+  "job_type": "Part-time",
+  "source": "IrishJobs",
+  "url": "https://example.com/irishjobs/job/1010",
+  "posted_at": "2026-10-03",
+  "description": "Shannon Health Systems is hiring a Software Engineer (Part-time) in Cork. Key skills: Python, microservices, CI/CD, cloud, code review. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Product Owner",
+  "company": "Suir Energy",
+  "location": "Remote, Ireland",
+  "job_type": "Full-time",
+  "source": "Jobs.ie",
+  "url": "https://example.com/jobsie/job/1011",
+  "posted_at": "2026-10-04",
+  "description": "Suir Energy is hiring a Product Owner (Full-time) in Remote, Ireland. Key skills: Backlog ownership, roadmap, stakeholder alignment, sprint planning, Agile. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "PMO Analyst",
+  "company": "Liffey Digital",
+  "location": "Cork",
+  "job_type": "Full-time",
+  "source": "LinkedIn",
+  "url": "https://example.com/linkedin/job/1012",
+  "posted_at": "2026-10-05",
+  "description": "Liffey Digital is hiring a PMO Analyst (Full-time) in Cork. Key skills: PMO governance, RAID log management, stakeholder reporting, portfolio dashboards, Jira, MS Project. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Senior PMO Analyst",
+  "company": "Dodder Software",
+  "location": "Limerick",
+  "job_type": "Part-time",
+  "source": "Indeed",
+  "url": "https://example.com/indeed/job/1013",
+  "posted_at": "2026-10-06",
+  "description": "Dodder Software is hiring a Senior PMO Analyst (Part-time) in Limerick. Key skills: PMO governance, benefits tracking, RAID management, executive reporting, change control. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "PMO Manager",
+  "company": "Nore Pharma",
+  "location": "Dublin",
+  "job_type": "Full-time",
+  "source": "IrishJobs",
+  "url": "https://example.com/irishjobs/job/1014",
+  "posted_at": "2026-10-07",
+  "description": "Nore Pharma is hiring a PMO Manager (Full-time) in Dublin. Key skills: Build and run a PMO: governance framework, resource planning, risk reporting, methodology. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Project Manager",
+  "company": "Lee Valley Logistics",
+  "location": "Cork",
+  "job_type": "Part-time",
+  "source": "Jobs.ie",
+  "url": "https://example.com/jobsie/job/1015",
+  "posted_at": "2026-10-08",
+  "description": "Lee Valley Logistics is hiring a Project Manager (Part-time) in Cork. Key skills: End-to-end delivery, stakeholder management, Agile and Waterfall, budgets, risk management. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Senior Delivery Lead",
+  "company": "Foyle Insurance",
+  "location": "Remote, Ireland",
+  "job_type": "Full-time",
+  "source": "LinkedIn",
+  "url": "https://example.com/linkedin/job/1016",
+  "posted_at": "2026-10-01",
+  "description": "Foyle Insurance is hiring a Senior Delivery Lead (Full-time) in Remote, Ireland. Key skills: Lead cross-functional delivery, stakeholder management, Agile delivery, roadmaps, vendor management. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Programme Manager",
+  "company": "Corrib Financial",
+  "location": "Dublin",
+  "job_type": "Part-time",
+  "source": "Indeed",
+  "url": "https://example.com/indeed/job/1017",
+  "posted_at": "2026-10-02",
+  "description": "Corrib Financial is hiring a Programme Manager (Part-time) in Dublin. Key skills: Programme governance, multi-project delivery, stakeholder management, benefits realisation. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Scrum Master",
+  "company": "Slaney Retail Group",
+  "location": "Cork",
+  "job_type": "Full-time",
+  "source": "IrishJobs",
+  "url": "https://example.com/irishjobs/job/1018",
+  "posted_at": "2026-10-03",
+  "description": "Slaney Retail Group is hiring a Scrum Master (Full-time) in Cork. Key skills: Facilitate Scrum ceremonies, sprint planning, backlog refinement, coach teams, remove impediments. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Agile Coach",
+  "company": "Moy Fintech",
+  "location": "Limerick",
+  "job_type": "Part-time",
+  "source": "Jobs.ie",
+  "url": "https://example.com/jobsie/job/1019",
+  "posted_at": "2026-10-04",
+  "description": "Moy Fintech is hiring a Agile Coach (Part-time) in Limerick. Key skills: Agile transformation, Scrum, Kanban, coaching teams and leadership, sprint planning. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Technical Project Manager",
+  "company": "Boyne Analytics",
+  "location": "Dublin",
+  "job_type": "Full-time",
+  "source": "LinkedIn",
+  "url": "https://example.com/linkedin/job/1020",
+  "posted_at": "2026-10-05",
+  "description": "Boyne Analytics is hiring a Technical Project Manager (Full-time) in Dublin. Key skills: Software delivery, Agile, Jira, stakeholder management, release planning. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Business Analyst",
+  "company": "Barrow Telecom",
+  "location": "Cork",
+  "job_type": "Part-time",
+  "source": "Indeed",
+  "url": "https://example.com/indeed/job/1021",
+  "posted_at": "2026-10-06",
+  "description": "Barrow Telecom is hiring a Business Analyst (Part-time) in Cork. Key skills: Requirements gathering, process mapping, user stories, stakeholder workshops. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Software Engineer",
+  "company": "Shannon Health Systems",
+  "location": "Remote, Ireland",
+  "job_type": "Full-time",
+  "source": "IrishJobs",
+  "url": "https://example.com/irishjobs/job/1022",
+  "posted_at": "2026-10-07",
+  "description": "Shannon Health Systems is hiring a Software Engineer (Full-time) in Remote, Ireland. Key skills: Python, microservices, CI/CD, cloud, code review. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Product Owner",
+  "company": "Suir Energy",
+  "location": "Dublin",
+  "job_type": "Part-time",
+  "source": "Jobs.ie",
+  "url": "https://example.com/jobsie/job/1023",
+  "posted_at": "2026-10-08",
+  "description": "Suir Energy is hiring a Product Owner (Part-time) in Dublin. Key skills: Backlog ownership, roadmap, stakeholder alignment, sprint planning, Agile. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "PMO Analyst",
+  "company": "Liffey Digital",
+  "location": "Dublin",
+  "job_type": "Part-time",
+  "source": "Indeed",
+  "url": "https://example.com/indeed/job/2000",
+  "posted_at": "2026-10-01",
+  "description": "Liffey Digital is hiring a PMO Analyst (Part-time) in Dublin. Key skills: PMO governance, RAID log management, stakeholder reporting, portfolio dashboards, Jira, MS Project. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Project Manager",
+  "company": "Lee Valley Logistics",
+  "location": "Dublin",
+  "job_type": "Full-time",
+  "source": "IrishJobs",
+  "url": "https://example.com/irishjobs/job/2003",
+  "posted_at": "2026-10-04",
+  "description": "Lee Valley Logistics is hiring a Project Manager (Full-time) in Dublin. Key skills: End-to-end delivery, stakeholder management, Agile and Waterfall, budgets, risk management. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Scrum Master",
+  "company": "Slaney Retail Group",
+  "location": "Dublin",
+  "job_type": "Part-time",
+  "source": "LinkedIn",
+  "url": "https://example.com/linkedin/job/2006",
+  "posted_at": "2026-10-07",
+  "description": "Slaney Retail Group is hiring a Scrum Master (Part-time) in Dublin. Key skills: Facilitate Scrum ceremonies, sprint planning, backlog refinement, coach teams, remove impediments. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Business Analyst",
+  "company": "Barrow Telecom",
+  "location": "Dublin",
+  "job_type": "Full-time",
+  "source": "Jobs.ie",
+  "url": "https://example.com/jobsie/job/2009",
+  "posted_at": "2026-10-02",
+  "description": "Barrow Telecom is hiring a Business Analyst (Full-time) in Dublin. Key skills: Requirements gathering, process mapping, user stories, stakeholder workshops. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "PMO Analyst",
+  "company": "Liffey Digital",
+  "location": "Cork",
+  "job_type": "Full-time",
+  "source": "Indeed",
+  "url": "https://example.com/indeed/job/2012",
+  "posted_at": "2026-10-05",
+  "description": "Liffey Digital is hiring a PMO Analyst (Full-time) in Cork. Key skills: PMO governance, RAID log management, stakeholder reporting, portfolio dashboards, Jira, MS Project. Minimum 3 years' experience in a similar role."
+ },
+ {
+  "title": "Program Manager",
+  "company": "Corrib Financial",
+  "location": "Remote, Ireland",
+  "job_type": "Full-time",
+  "source": "IrishJobs",
+  "url": "https://example.com/irishjobs/job/2005",
+  "posted_at": "2026-10-06",
+  "description": "Corrib Financial is hiring a Programme Manager (Full-time) in Remote, Ireland. Key skills: Programme governance, multi-project delivery, stakeholder management, benefits realisation. Minimum 3 years' experience in a similar role."
+ }
+]

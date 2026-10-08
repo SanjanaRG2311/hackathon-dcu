@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="flex items-center justify-between"><h1 class="text-xl font-bold">Alert history</h1>
+  <form method="post" action="/alerts/test"><button class="rounded bg-indigo-600 px-3 py-1.5 text-sm text-white">Send test notification</button></form></div>
+<div class="space-y-3">
+  {% for a in alerts %}
+  <div class="rounded-lg bg-white p-4 shadow-sm"><div class="mb-1 text-xs text-slate-500">{{ a.created_at.strftime('%d %b %H:%M') }} | {{ a.channel }} | {{ 'delivered' if a.ok else 'not delivered' }}</div>
+    <pre class="whitespace-pre-wrap text-sm">{{ a.message }}</pre></div>
+  {% else %}<p class="text-sm text-slate-500">No alerts yet.</p>{% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,13 @@
+<div id="pipeline" {% if state.running %}hx-get="/pipeline" hx-trigger="every 1s" hx-swap="outerHTML"{% endif %}>
+  <div class="grid grid-cols-5 gap-2">
+    {% for s in stages %}
+    <div class="rounded-lg border p-3 text-center {{ 'border-emerald-400 bg-emerald-50' if state.counts[s] else 'bg-white' }}
+      {{ 'ring-2 ring-indigo-400' if state.stage == s and state.running else '' }}">
+      <div class="text-xs uppercase text-slate-500">{{ s }}</div>
+      <div class="text-2xl font-bold">{{ state.counts[s] }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  <p class="mt-2 text-sm text-slate-500">Status: {{ state.stage }}{% if state.demo %} (demo){% endif %}</p>
+  {% for l in state.log[-3:] %}<p class="text-xs text-amber-700">{{ l }}</p>{% endfor %}
+</div>

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block body %}
+{% set j = app.match.job %}
+<h1 class="text-xl font-bold">Review application: {{ j.title }} - {{ j.company }}</h1>
+<p class="text-sm text-slate-500">Nothing is sent. Approving only moves this to the Approved column so you can apply yourself.</p>
+<div class="grid gap-4 md:grid-cols-2">
+  <div class="rounded-lg bg-white p-4 shadow-sm"><h2 class="mb-2 font-semibold">Job ({{ app.match.final_score }}% match)</h2><p class="text-sm">{{ j.description }}</p>
+    <a href="{{ j.url }}" target="_blank" rel="noopener" class="mt-2 inline-block text-sm text-indigo-600 underline">Open posting</a></div>
+  <div class="space-y-3 rounded-lg bg-white p-4 shadow-sm"><h2 class="font-semibold">Tailored CV summary</h2><p class="whitespace-pre-wrap text-sm">{{ app.cv_summary }}</p>
+    <h2 class="font-semibold">Cover letter</h2><p class="whitespace-pre-wrap text-sm">{{ app.cover_letter }}</p>
+    <form method="post" action="/review/{{ app.id }}/approve"><button class="rounded bg-emerald-600 px-4 py-2 text-sm text-white">Approve</button> <a href="/" class="ml-2 text-sm underline">Back</a></form></div>
+</div>
+{% endblock %}

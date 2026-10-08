@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block body %}
+<h1 class="text-xl font-bold">Career profiles</h1>
+<div class="grid gap-6 md:grid-cols-2">
+  <form method="post" action="{{ '/profiles/%d' % edit.id if edit else '/profiles' }}" enctype="multipart/form-data" class="space-y-3 rounded-lg bg-white p-4 shadow-sm">
+    <h2 class="font-semibold">{{ 'Edit' if edit else 'New' }} profile</h2>
+    {% for f, label in [("name","Profile name"),("role","Target role"),("alt_titles","Alternate titles (comma separated)"),("locations","Locations (comma separated)"),("keywords","Keywords (comma separated)")] %}
+    <label class="block text-sm">{{ label }}<input name="{{ f }}" value="{{ edit[f] if edit else '' }}" {{ 'required' if f in ('name','role') }} class="mt-1 w-full rounded border px-2 py-1"></label>
+    {% endfor %}
+    <div class="grid grid-cols-3 gap-3">
+      <label class="block text-sm">Type<select name="job_type" class="mt-1 w-full rounded border px-2 py-1">{% for t in ["Full-time","Part-time","Contract"] %}<option {{ 'selected' if edit and edit.job_type == t }}>{{ t }}</option>{% endfor %}</select></label>
+      <label class="block text-sm">Experience (yrs)<input type="number" name="experience" value="{{ edit.experience if edit else 0 }}" class="mt-1 w-full rounded border px-2 py-1"></label>
+      <label class="block text-sm">Min alert score<input type="number" name="min_score" value="{{ edit.min_score if edit else 85 }}" class="mt-1 w-full rounded border px-2 py-1"></label>
+    </div>
+    <label class="block text-sm">Resume (PDF, DOCX or TXT){% if edit and edit.resume_text %} - {{ edit.resume_text|length }} chars stored{% endif %}<input type="file" name="resume" class="mt-1 w-full text-sm"></label>
+    <button class="rounded bg-indigo-600 px-4 py-2 text-sm text-white">Save</button>
+  </form>
+  <div class="space-y-3">
+    {% for p in profiles %}
+    <div class="flex items-center justify-between rounded-lg bg-white p-4 shadow-sm">
+      <div><div class="font-semibold">{{ p.name }}</div><div class="text-sm text-slate-500">{{ p.role }} | {{ p.job_type }} | {{ p.locations }} | alert at {{ p.min_score }}</div></div>
+      <div class="flex gap-2 text-sm"><a href="/profiles/{{ p.id }}/edit" class="text-indigo-600 underline">Edit</a>
+        <form method="post" action="/profiles/{{ p.id }}/delete"><button class="text-red-600 underline">Delete</button></form></div>
+    </div>{% endfor %}
+  </div>
+</div>
+{% endblock %}
